@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c39653736a3402fae49f3ed7df4e0c2, type: 3}
+  m_Name: DataConfig
+  m_EditorClassIdentifier: 
+  width: 4
+  height: 4
+  nodePrefab: {fileID: 3019640912914817508, guid: 6bdb751d815059140ba9ba30075a44ee, type: 3}
+  blockPrefab: {fileID: 8910836259204815732, guid: 0dee61c7373f9324c92b22d0b0935637, type: 3}
+  boardPrefab: {fileID: 6745515010521737061, guid: 0684e0237a4f65847ba611429f878b6a, type: 3}
+  blockTypes:
+  - value: 2
+    color: {r: 0.8745098, g: 0.4, b: 0.7372549, a: 1}
+  - value: 4
+    color: {r: 0.3764706, g: 0.7372549, b: 0.25882354, a: 1}
+  - value: 8
+    color: {r: 0.22745098, g: 0.72156864, b: 0.79607844, a: 1}
+  - value: 16
+    color: {r: 0.21176471, g: 0.5019608, b: 0.85882354, a: 1}
+  - value: 32
+    color: {r: 0.9098039, g: 0.4117647, b: 0.2784314, a: 1}
+  - value: 64
+    color: {r: 0.54509807, g: 0.5019608, b: 0.9843137, a: 1}
+  - value: 128
+    color: {r: 0.5882353, g: 0.5372549, b: 0.5019608, a: 1}
+  - value: 256
+    color: {r: 1, g: 0.6784314, b: 0.16078432, a: 1}
+  - value: 512
+    color: {r: 0.99607843, g: 0.39215687, b: 0.44705883, a: 1}
+  - value: 1024
+    color: {r: 0.76862746, g: 0.16470589, b: 0.03529412, a: 1}
+  - value: 2048
+    color: {r: 0.827451, g: 0.23529412, b: 0.9254902, a: 1}

@@ -6,7 +6,6 @@ using UnityEngine;
 public class NodeManager : MonoBehaviour
 {
     [SerializeField] private Node nodePrefab;
-    
     private List<Node> _nodes;
     private void Awake()
     {
